@@ -3,7 +3,7 @@ from typing import List, Dict
 import numpy as np
 from .element import Element
 from .node import Node
-from .trnsoformer import transform_stiffness_matrix
+from .transformer import transform_stiffness_matrix
 
 @dataclass
 class StructuralElements:
